@@ -1,5 +1,7 @@
 ## わかめtube
 
+稼働中:https://wakame-tube.onrender.com
+
 ### 1. Remix
 
 1. このリポジトリを GitHub で開く
