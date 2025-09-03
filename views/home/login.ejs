@@ -3,14 +3,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>統合学習支援ポータル</title>
+  <title>学習支援ポータル</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       darkMode: 'class'
     }
   </script>
-  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/1/19/Google_Classroom_Logo.svg" />
+  <link rel="icon" href="https://lh3.googleusercontent.com/gg-dl/AJfQ9KQkAHnCYx9hyePBIvBAbNAn0BoIv8uZOUpo8khO1ozukfknXsIclV7-STFeS6q37N4Bvyw1YzlkoVUH3lPoZYnsj-3dDn0WsEuW4T2EStVfSiUIAe3yki91lr4JBgxET9B-L_X1AhCesMUn-etYcy3LJ87Xu5AcOc85925LuN65VsMbhQ" />
   <style>
     @keyframes spin {
       0% { transform: rotate(0deg); }
@@ -36,12 +36,12 @@
     <div class="flex flex-col justify-center p-8 max-w-lg w-full mx-auto animate-fadeIn">
       <div id="loginCard" class="bg-white dark:bg-gray-800 p-8 rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700 transition duration-300">
         <div class="flex items-center space-x-3 mb-6">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/Google_Classroom_Logo.svg" alt="Logo" class="w-10 h-10">
-          <h1 class="text-xl font-semibold tracking-wide" id="titleText">統合学習支援ポータル</h1>
+          <img src="https://lh3.googleusercontent.com/rd-gg-dl/AJfQ9KQ5fIJuQVpVWQhEU99A9L8_Bey7F8oS47FeYQmGqMw3QA5zUx6iKAAr6Ysk2XE-TxoTYWG6fkPkXOVc42lL0GUQDgpWv83BT4kZSw9vtD358P9oxntzJbyC_H62Cd7nWzpoHuRtqv68U8D1D0-dR0TO3m6uWAQmviE4epLLdlAYhLXBvIg4AbXVshSr6a14I1L-HGdDi6bvDEhNfAa_QpMx2HpfTBAgPczD42TwFRuA3s5RQA30rh420sz9PF2-MD-Tb5-uzxE_PJ7h0zv33dYkbY-lJAS4ShXyGo7O4HlZfil0P1nZr0o2UkFn64oQsTLr64dulDrhsLfss4HTEh4e0-ZKKzxO9GNHShkfeXeXm5-2tbZi8Hegzi1NvPg2v99pyI5GwqTe3eLOaWQWb0S-R-OS1UleGZJc6on5rwE71YEkHu9zVnpdGoGElHrnSpMvLoN35gMi5iIKvOzggtH_i7ua4ZvX51K7uvwAlZlV7gQNxow17JaEsdw-ybhp4gybHeTp2aUgRqSKZYBz71IYpirarjGZr0JbcdIofUyHtgQQfmlyPg3MMbF-PUflp6D_B0KFpZ_b7Q8Kc6lSo7vNbdbIjMYlyrIeXUdorx9hnzVo0BduyPHlzCdc56QZG_CM7-yXG7xAZV0QVUkowb5jLZSlz7JnFmtdLefPvNkgJZv_rhHc-N63tYlpr35ohV21XHT63Dy_UX660nZJ58vPO_Tu6tJjmQzcl0Tf052Q3nrGT-Wm88qawLzLX-2d4DAliLJ8A7JL1qPkEr1LkgPfQnhwdknQRNsdrS3kYg4IIOcsK38yUt1KR_agiZ0QDDNVOUj5mbgZIMNBCOlnI_nxmiDJC4PPXb_egwa_mkE3hxZIbRu4eDKEj8Qh4jUwgAUplPmanKY1ec888sIXIseikySx5jrXw2MeB0m0SNA7A-KRYq-Q0GIzCSl2HQUqszS6kgMD_GIsmsf0y5p0rGtDgjttlcfi37nb9pRcptjW444IcakQzpZTwfa4bqY_dGpZImXZPwdZF4x83CwBS9v_lRByNfT4KB3FjFN_-z6onn06xVvSW-MJKUuiIUnr4waW4bMiQTBgX7UDuosKp5NbmmKK7-6FumVh5Sc9H49Fk5eP1YhJHN4IupkcHzbW85Ng62lcO2vwRGbhFBiV9UpMd51UvMQwJ29JigwOMZbqDd3bf2LgcqgZtmzrSXk=s512" alt="Logo" class="w-10 h-10">
+          <h1 class="text-xl font-semibold tracking-wide" id="titleText">学習支援ポータル</h1>
         </div>
         <form id="loginForm" class="space-y-5">
           <div>
-            <label for="password" class="block text-sm font-medium mb-1" id="labelText">認証コード</label>
+            <label for="password" class="block text-sm font-medium mb-1" id="labelText">管理者専用パスワード</label>
             <input
               type="password"
               id="password"
@@ -80,8 +80,8 @@
 
     const lang = {
       ja: {
-        title: "統合学習支援ポータル",
-        label: "認証コード",
+        title: "学習支援ポータル",
+        label: "管理者専用パスワード",
         button: "サインイン",
         error: "コードが違います。再確認してください。"
       },
